@@ -29,15 +29,7 @@ function isValidPart2(record: PasswordRecord) {
   const charMin = record.password[record.min - 1]
   const charMax = record.password[record.max - 1]
 
-  const result = charMin !== charMax && (charMin === record.char || charMax === record.char)
-
-  if (!result) {
-    console.log(charMin)
-    console.log(charMax)
-    console.log(record)
-  }
-
-  return result
+  return charMin !== charMax && (charMin === record.char || charMax === record.char)
 }
 
 export function part2(input: string): string {

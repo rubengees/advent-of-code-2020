@@ -21,9 +21,6 @@ export function part2(input: string): string {
     for (const line2 of allLines) {
       for (const line3 of allLines) {
         if (line1 + line2 + line3 === 2020) {
-          console.log(line1)
-          console.log(line2)
-          console.log(line3)
           return (line1 * line2 * line3).toString()
         }
       }
