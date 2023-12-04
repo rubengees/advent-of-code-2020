@@ -2,7 +2,7 @@
 
 These are my solutions for the Advent of Code 2020.
 
-I didn't attempt them at that year but instead doing them for fun mow.
+I didn't attempt them at that year but instead doing them for fun now.
 
 Similar to 2023, I solved them using Typescript and Bun with no special constraints otherwise.
 
